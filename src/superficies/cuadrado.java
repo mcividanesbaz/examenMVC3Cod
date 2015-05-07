@@ -9,6 +9,8 @@ public class cuadrado {
 
             
     public cuadrado(){}
+    
+    
 
     public float getSquareArea() {
         return squareArea;
