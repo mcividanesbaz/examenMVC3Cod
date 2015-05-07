@@ -9,6 +9,7 @@ public class rectangulo {
 
 public rectangulo(){}
 
+
     public float getSideLength() {
         return sideLength;
     }
