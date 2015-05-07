@@ -9,6 +9,8 @@ public class triangulo {
             float triangleArea;
     
     public triangulo(){}
+    
+   
 
     public float getBaseLength() {
         return baseLength;
