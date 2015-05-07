@@ -4,9 +4,16 @@ package superficies;
 
 public class modelo {
    
+   public modelo(){}
+    
+    
+    
+    
     
     public void calcular(){
-      if (shapeType.equals("square")) {
+        
+        
+        if (shapeType.equals("square")) {
             //add area calculations for square
             float squareArea;
             float sideLength;
