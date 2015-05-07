@@ -32,10 +32,7 @@ public class modelo {
             //add area calculations for rectangle here
         
 
-            System.out.println("what is the rectangles width?");
-            sideLength = sc.nextFloat();
-            System.out.println("What is the rectangles height?");
-            sideHeight = sc.nextFloat();
+        
             
             rec.rectangleArea = rec.sideLength * rec.sideHeight;
             System.out.println("The area for your rectangle is: " + rec.rectangleArea);
@@ -62,8 +59,7 @@ public class modelo {
             //add area calculations for a circle here
            
 
-            System.out.println("What is the radius of the circle?");
-            radius = sc.nextFloat();
+          
             cir.circleArea = cir.radius * cir.radius;
             cir.circleArea = (float) (3.14159265 * cir.circleArea);
             System.out.println("Your Circles area is " + cir.circleArea);
